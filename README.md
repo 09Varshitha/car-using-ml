@@ -1,0 +1,3 @@
+•	Built an end-to-end pricing pipeline on 15,400+ vehicle records using HistGradientBoostingRegressor, achieving 12.42% MAPE and 0.93 R² with strict 5-fold cross-validation. 
+•	Addressed target skewness and nonlinear feature interactions using log transformations and domain-specific features including power_to_age_ratio, km_per_year, and power_per_liter; identified power_to_age_ratio as the strongest valuation driver.
+•	Developed modular ColumnTransformer pipelines and serialized leakage-free joblib artifacts for reproducible inference; audited errors across vehicle-age cohorts, achieving <10% median prediction error for vehicles up to 7 years old.
